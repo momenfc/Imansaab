@@ -1,0 +1,6 @@
+.primary-btn{
+    @include btn($secondary_color, $primary_color);
+}
+.secondary-btn{
+    @include btn( $primary_color, $secondary_color);
+}

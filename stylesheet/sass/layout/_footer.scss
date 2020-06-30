@@ -1,0 +1,23 @@
+footer{
+    &.main-footer{
+        min-height: 80px;
+        @extend %flexCenter;
+        text-transform: capitalize;
+        background-color: $primary_color;
+        color: #fff;
+        flex-direction: column;
+        justify-content: space-around;
+        a{
+            color : #fff;
+            text-decoration: none !important; 
+        }
+        @media screen and (min-width: 1920px) {
+                max-width: 1150px; 
+                margin: auto;
+          }
+          @include mq("phablet"){
+            min-height: 65px; 
+          }
+      
+    }
+}
